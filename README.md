@@ -6,13 +6,17 @@
 
 ## Demo Video
 
+https://github.com/user-attachments/assets/7b7c7cc8-f08a-4f03-b9e3-776ab26dd2a4
+
+
+
+
+
 <p align="center">
   <video src="assets/screen-recording-2026-04-30-at-150253-kfpgqw1z_TlZ3N0AA.mp4" controls width="100%"></video>
 </p>
 
-If the embedded video does not render in your viewer, open it directly here:
 
-- [assets/screen-recording-2026-04-30-at-150253-kfpgqw1z_TlZ3N0AA.mp4](assets/screen-recording-2026-04-30-at-150253-kfpgqw1z_TlZ3N0AA.mp4)
 
 This project is a multimodal RAG demo for text, PDF, image, audio, and video assets. It supports text, visual, and hybrid retrieval; Qdrant Cloud persistence; guardrails; reranking; and grounded answers from `gpt-5-nano`.
 
