@@ -78,10 +78,10 @@ def _prefill_secret(secret_key: str, env_key: str, default: str = "") -> str:
 
 
 def main() -> None:
-    st.set_page_config(page_title="Multimodal RAG Demo", page_icon="M", layout="wide")
+    st.set_page_config(page_title="Multimodal RAG ChatBot", page_icon="M", layout="wide")
     init_state()
 
-    st.title("Multimodal RAG Demo")
+    st.title("Multimodal RAG ChatBot")
     st.write(
         "Turn slides, transcripts, images, and optional video frames into searchable "
         "evidence, then ask grounded questions with citations."
