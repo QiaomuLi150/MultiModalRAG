@@ -8,6 +8,15 @@ The goal of the benchmark suite is to show both retrieval quality and answer qua
 
 The formal report is saved in `eval/results/formal_full_system_report.csv`.
 
+### At a Glance
+
+| Benchmark | Best setting | Key result |
+| --- | --- | --- |
+| BEIR `nfcorpus` | `Text Hybrid + MiniLM-L4` | `hit@5 = 0.610`, `mrr@5 = 0.570` |
+| BEIR `trec-covid` | `Text Hybrid + MiniLM-L4` | `hit@5 = 0.960`, `mrr@5 = 0.890` |
+| DocVQA small retrieval | `Visual Page + Text Hybrid + MiniLM-L4` | `mrr@5 = 0.893` |
+| DocVQA small answer quality | `Visual Page + Text Hybrid + MiniLM-L4` | `normalized_exact_match = 0.350`, `contains_expected = 0.750`, `token_f1 = 0.568`, `anls = 0.729` |
+
 | Benchmark | Best setting | Result |
 | --- | --- | --- |
 | BEIR `nfcorpus` | `Text Hybrid + MiniLM-L4` | `hit@5 = 0.610`, `mrr@5 = 0.570` |

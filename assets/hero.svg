@@ -1,0 +1,88 @@
+<svg width="1600" height="420" viewBox="0 0 1600 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MultiModalRAG hero banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#07111E"/>
+      <stop offset="0.45" stop-color="#0B1730"/>
+      <stop offset="1" stop-color="#152B4F"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(250 95) rotate(40) scale(260 180)">
+      <stop stop-color="#33D6FF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#33D6FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1330 140) rotate(140) scale(320 220)">
+      <stop stop-color="#FF9F43" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#FF9F43" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#163153"/>
+      <stop offset="1" stop-color="#0E1E34"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5EEAD4"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="420" rx="36" fill="url(#bg)"/>
+  <rect width="1600" height="420" rx="36" fill="url(#glow1)"/>
+  <rect width="1600" height="420" rx="36" fill="url(#glow2)"/>
+
+  <g opacity="0.18">
+    <circle cx="1410" cy="64" r="2" fill="#D7F3FF"/>
+    <circle cx="1460" cy="116" r="3" fill="#D7F3FF"/>
+    <circle cx="1498" cy="78" r="2" fill="#D7F3FF"/>
+    <circle cx="1276" cy="338" r="2" fill="#D7F3FF"/>
+    <circle cx="1356" cy="286" r="3" fill="#D7F3FF"/>
+    <circle cx="1430" cy="334" r="2" fill="#D7F3FF"/>
+    <circle cx="84" cy="336" r="2" fill="#D7F3FF"/>
+    <circle cx="142" cy="290" r="3" fill="#D7F3FF"/>
+    <circle cx="210" cy="342" r="2" fill="#D7F3FF"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="88" y="74" width="770" height="272" rx="28" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.12)"/>
+    <text x="130" y="156" fill="#EAF6FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="62" font-weight="800" letter-spacing="-1.4">
+      MultiModalRAG
+    </text>
+    <text x="130" y="201" fill="#B8D7EE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="500">
+      Text, visual, and hybrid RAG for PDFs, images, audio, and video
+    </text>
+    <text x="130" y="240" fill="#8FB4D4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20">
+      Qdrant Cloud persistence · rerankers · guardrails · vision-first answers
+    </text>
+
+    <g>
+      <rect x="130" y="275" width="138" height="40" rx="20" fill="url(#accent)" opacity="0.95"/>
+      <text x="151" y="301" fill="#06203A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Text / Visual</text>
+      <rect x="280" y="275" width="140" height="40" rx="20" fill="#1E3A5F"/>
+      <text x="302" y="301" fill="#D7F3FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Hybrid RAG</text>
+      <rect x="432" y="275" width="140" height="40" rx="20" fill="#1E3A5F"/>
+      <text x="455" y="301" fill="#D7F3FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Vision-first QA</text>
+      <rect x="584" y="275" width="160" height="40" rx="20" fill="#1E3A5F"/>
+      <text x="608" y="301" fill="#D7F3FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Streamlit Cloud</text>
+    </g>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="948" y="70" width="504" height="274" rx="28" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.12)"/>
+    <text x="996" y="115" fill="#EAF6FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Retrieval stack</text>
+
+    <rect x="996" y="140" width="408" height="40" rx="20" fill="#102441" stroke="rgba(94,234,212,0.35)"/>
+    <text x="1018" y="166" fill="#D9FDF6" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">Text Hybrid + MiniLM-L4 rerank</text>
+
+    <rect x="996" y="194" width="408" height="40" rx="20" fill="#102441" stroke="rgba(56,189,248,0.35)"/>
+    <text x="1018" y="220" fill="#DDF2FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">Visual Page + Text Hybrid</text>
+
+    <rect x="996" y="248" width="408" height="40" rx="20" fill="#102441" stroke="rgba(255,159,67,0.35)"/>
+    <text x="1018" y="274" fill="#FFF2E5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">Guardrails + grounded answer generation</text>
+
+    <g transform="translate(1368 118)">
+      <circle cx="42" cy="42" r="42" fill="url(#accent)" opacity="0.18"/>
+      <circle cx="42" cy="42" r="26" fill="none" stroke="#5EEAD4" stroke-width="4"/>
+      <path d="M29 42L38 51L56 32" stroke="#5EEAD4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

@@ -1,6 +1,10 @@
 # Multimodal RAG Q&A System
 
-This project is a multimodal RAG Q&A system for text, PDF, image, audio, and video assets. It supports text, visual, and hybrid retrieval; Qdrant Cloud persistence; guardrails; reranking; and grounded answers from `gpt-5-nano`.
+<p align="center">
+  <img src="assets/hero.svg" alt="MultiModalRAG hero banner" width="100%">
+</p>
+
+This project is a multimodal RAG demo for text, PDF, image, audio, and video assets. It supports text, visual, and hybrid retrieval; Qdrant Cloud persistence; guardrails; reranking; and grounded answers from `gpt-5-nano`.
 
 OpenAI is used only for final chat answer generation. Retrieval and non-text handling are local and free/open-source. Without an API key, the app still works in retrieval-only mode.
 
@@ -10,6 +14,14 @@ OpenAI is used only for final chat answer generation. Retrieval and non-text han
 ![Retrieval modes](https://img.shields.io/badge/retrieval%20modes-text%20%2F%20visual%20%2F%20hybrid-blue)
 ![Answering](https://img.shields.io/badge/answering-vision%20first-ffb347)
 ![Persistence](https://img.shields.io/badge/Qdrant%20Cloud-supported-success)
+
+## Live Demo
+
+The project is live on Streamlit Community Cloud:
+
+- [Open the public demo](https://multimodalrag-zqcgs36wwctqct7u9tvjvu.streamlit.app/)
+
+Viewers can open the app and paste their own OpenAI and Qdrant credentials in the sidebar. If they do not enter an API key, the app still works in retrieval-only mode.
 
 ## Pipeline Mapping
 
@@ -21,6 +33,10 @@ OpenAI is used only for final chat answer generation. Retrieval and non-text han
 - Grounded generation: top evidence is packed into a prompt and sent to `gpt-5-nano` only when an API key is available.
 
 ## Formal Evaluation
+
+<p align="center">
+  <img src="assets/formal-results.svg" alt="Formal evaluation snapshot" width="100%">
+</p>
 
 ### Evaluation Protocol
 
@@ -60,6 +76,12 @@ Headline results from the formal runs:
 | BEIR `nfcorpus` | `Text Hybrid + MiniLM-L4` | `hit@5 = 0.610`, `mrr@5 = 0.570` |
 | BEIR `trec-covid` | `Text Hybrid + MiniLM-L4` | `hit@5 = 0.960`, `mrr@5 = 0.890` |
 | DocVQA small answer quality | `Visual Page + Text Hybrid + MiniLM-L4` | `normalized_exact_match = 0.350`, `contains_expected = 0.750`, `token_f1 = 0.568`, `anls = 0.729` |
+
+Key takeaways:
+
+- `MiniLM-L4` improved text retrieval ranking quality in the formal BEIR runs.
+- Visual page retrieval plus text hybrid retrieval was the strongest multimodal retrieval setting on DocVQA.
+- The vision-first answer path is now the best multimodal answer configuration in the formal suite.
 
 Complete formal results:
 
