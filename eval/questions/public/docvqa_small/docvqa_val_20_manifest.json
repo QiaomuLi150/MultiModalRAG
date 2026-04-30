@@ -1,0 +1,9 @@
+{
+  "dataset": "lmms-lab/DocVQA",
+  "split": "validation",
+  "question_count": 20,
+  "image_count": 7,
+  "images_dir": "/mnt/bst/a100/yxie2/qli12/My___Proj/MultiModalRAG/eval/questions/public/docvqa_small/images",
+  "questions_path": "/mnt/bst/a100/yxie2/qli12/My___Proj/MultiModalRAG/eval/questions/public/docvqa_small/docvqa_val_20.jsonl",
+  "qrels_path": "/mnt/bst/a100/yxie2/qli12/My___Proj/MultiModalRAG/eval/questions/public/docvqa_small/docvqa_val_20_qrels.jsonl"
+}

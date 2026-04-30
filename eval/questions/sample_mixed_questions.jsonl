@@ -1,0 +1,5 @@
+{"id":"sample_q001","question":"What are the key product roadmap decisions?","expected_modality":"text","expected_source":"meeting_transcript.txt","notes":"Baseline text retrieval question for bundled sample data."}
+{"id":"sample_q002","question":"What did the team decide about offline support?","expected_modality":"text","expected_source":"meeting_transcript.txt","notes":"Checks grounded retrieval over transcript content."}
+{"id":"sample_q003","question":"Which slide or note mentions enterprise rollout planning?","expected_modality":"slide","expected_source":"slide_notes.txt","notes":"Useful for text or hybrid mode on bundled sample data."}
+{"id":"sample_q004","question":"Summarize the main user-facing launch risks mentioned in the indexed materials.","expected_modality":"mixed","expected_source":"","notes":"Broad summarization question that should still remain grounded."}
+{"id":"sample_q005","question":"What evidence is available about timeline constraints?","expected_modality":"mixed","expected_source":"","notes":"Good for retrieval-only experiments and evidence inspection."}

@@ -1,0 +1,56 @@
+{
+  "name": "storage_aware_benchmark_plan",
+  "qdrant_free_tier_constraints": {
+    "disk_gb": 4,
+    "ram_gb": 1
+  },
+  "recommended_collections": [
+    {
+      "collection_name": "multimodal_eval_text_v1",
+      "purpose": "Text-only baseline runs",
+      "recommended_size": "small_to_medium"
+    },
+    {
+      "collection_name": "multimodal_eval_visual_v1",
+      "purpose": "Curated visual page subset only",
+      "recommended_size": "small"
+    }
+  ],
+  "dataset_subsets": [
+    {
+      "dataset": "BEIR",
+      "target_queries": 200,
+      "mode": "Text Baseline",
+      "cloud_recommended": true,
+      "notes": "Use only a text subset for first-pass credibility."
+    },
+    {
+      "dataset": "DocVQA",
+      "target_queries": 100,
+      "mode": "Hybrid Default",
+      "cloud_recommended": false,
+      "notes": "Run locally first. Promote a smaller validated subset if needed."
+    },
+    {
+      "dataset": "InfoVQA",
+      "target_queries": 75,
+      "mode": "Visual Stress",
+      "cloud_recommended": false,
+      "notes": "Visual-heavy; likely too expensive to keep large in free-tier cloud."
+    },
+    {
+      "dataset": "ChartQA",
+      "target_queries": 75,
+      "mode": "Visual Stress",
+      "cloud_recommended": false,
+      "notes": "Use for chart and figure reasoning."
+    },
+    {
+      "dataset": "CustomMedia",
+      "target_queries": 25,
+      "mode": "Hybrid Default",
+      "cloud_recommended": false,
+      "notes": "Use your own audio/video cases because public benchmarks are weaker here."
+    }
+  ]
+}

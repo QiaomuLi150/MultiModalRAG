@@ -1,0 +1,2 @@
+{"id":"bench_q001","question":"<replace with benchmark question>","expected_modality":"text","expected_source":"","dataset":"BEIR","split":"dev","notes":"Template row for converted public benchmark questions."}
+{"id":"bench_q002","question":"<replace with benchmark question>","expected_modality":"visual_page","expected_source":"","dataset":"DocVQA","split":"dev","notes":"Template row for converted public benchmark questions."}

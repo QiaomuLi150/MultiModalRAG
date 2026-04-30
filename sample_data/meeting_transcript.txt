@@ -1,0 +1,8 @@
+Maya opened the roadmap meeting by confirming that the team will prioritize the mobile offline mode before the analytics redesign. The customer advisory board reported that field teams lose connectivity during site visits, so offline mode is a blocker for renewals in healthcare and logistics.
+
+Jordan noted that the analytics redesign remains important, but it can move to the next release if the team preserves the existing dashboard filters. Priya said the main technical risk is conflict resolution when records are edited offline by multiple users.
+
+The team agreed on three decisions: ship a beta of offline mode in July, keep analytics filter improvements in discovery, and create a weekly risk review for sync reliability. The success metrics are beta activation, sync error rate, and support tickets related to offline records.
+
+Action items were assigned. Priya will prototype conflict handling, Jordan will draft the beta customer list, and Maya will update leadership on the revised roadmap.
+

@@ -1,0 +1,5 @@
+{"id":"visual_q001","question":"Show me the page with the architecture diagram.","expected_modality":"visual_page","expected_source":"","notes":"Best for Visual Page or Visual Page + Text Hybrid."}
+{"id":"visual_q002","question":"Which page contains the chart or table with the most concrete metrics?","expected_modality":"visual_page","expected_source":"","notes":"Good for chart-heavy PDFs or slides."}
+{"id":"visual_q003","question":"Find the page where a screenshot or UI-like layout appears.","expected_modality":"visual_page","expected_source":"","notes":"Best for layout-driven retrieval checks."}
+{"id":"visual_q004","question":"Which page has the clearest summary of the system architecture?","expected_modality":"visual_page","expected_source":"","notes":"Tests retrieval on diagram-heavy documents."}
+{"id":"visual_q005","question":"Locate the page that best answers a question about page layout rather than exact wording.","expected_modality":"visual_page","expected_source":"","notes":"Used to compare text-only and visual retrieval behavior."}

@@ -1,0 +1,80 @@
+{
+  "name": "docvqa_small_batch",
+  "notes": "First multimodal retrieval comparison on a compact DocVQA validation subset with guardrails off.",
+  "runs": [
+    {
+      "run_label": "docvqa_small_text_off_v1",
+      "args": [
+        "--questions-file",
+        "eval/questions/public/docvqa_small/docvqa_val_20.jsonl",
+        "--input-dir",
+        "eval/questions/public/docvqa_small/images",
+        "--guardrail-level",
+        "Off",
+        "--rag-mode",
+        "Text Hybrid",
+        "--search-backend",
+        "Hybrid",
+        "--run-label",
+        "docvqa_small_text_off_v1",
+        "--log-runs"
+      ]
+    },
+    {
+      "run_label": "docvqa_small_visual_hybrid_off_v1",
+      "args": [
+        "--questions-file",
+        "eval/questions/public/docvqa_small/docvqa_val_20.jsonl",
+        "--input-dir",
+        "eval/questions/public/docvqa_small/images",
+        "--guardrail-level",
+        "Off",
+        "--rag-mode",
+        "Visual Page + Text Hybrid",
+        "--search-backend",
+        "Hybrid",
+        "--page-render-scale",
+        "1.25",
+        "--visual-embedding-batch-size",
+        "1",
+        "--light-compression-mode",
+        "similarity_merge",
+        "--light-target-tokens",
+        "64",
+        "--run-label",
+        "docvqa_small_visual_hybrid_off_v1",
+        "--log-runs"
+      ]
+    },
+    {
+      "run_label": "docvqa_small_visual_hybrid_l4_off_v1",
+      "args": [
+        "--questions-file",
+        "eval/questions/public/docvqa_small/docvqa_val_20.jsonl",
+        "--input-dir",
+        "eval/questions/public/docvqa_small/images",
+        "--guardrail-level",
+        "Off",
+        "--rag-mode",
+        "Visual Page + Text Hybrid",
+        "--search-backend",
+        "Hybrid",
+        "--page-render-scale",
+        "1.25",
+        "--visual-embedding-batch-size",
+        "1",
+        "--light-compression-mode",
+        "similarity_merge",
+        "--light-target-tokens",
+        "64",
+        "--reranker",
+        "MiniLM-L4",
+        "--rerank-top-n",
+        "8",
+        "--run-label",
+        "docvqa_small_visual_hybrid_l4_off_v1",
+        "--log-runs"
+      ]
+    }
+  ]
+}

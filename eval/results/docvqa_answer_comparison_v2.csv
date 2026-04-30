@@ -1,0 +1,4 @@
+run_label,questions,mode,engine,reranker,guardrail_level,blocked,no_results,used_api_count,avg_retrieval_s,avg_answer_s,avg_total_s,high_conf,medium_conf,low_conf,hit_at_k,recall_at_k,mrr_at_k,judged,normalized_exact_match,contains_expected,token_f1,anls,answer_judged
+docvqa_small_text_answer_full_v1,20,Text Hybrid,Hybrid,Off,Off,0,0,20,0.012735964590683579,6.9281777264084665,6.941132670547813,0,17,3,0.0,0.0,0.0,20,0.35,0.45,0.4876190476190477,0.6877164762285484,20
+docvqa_small_visual_hybrid_l4_answer_full_v2,20,Visual Page + Text Hybrid,Hybrid,MiniLM-L4,Off,0,0,20,0.10351341394707561,8.487922427896411,8.591772301215679,6,0,14,0.0,0.0,0.0,20,0.3,0.45,0.4207142857142857,0.5816063183699349,20
+docvqa_small_visual_hybrid_l4_answer_full_v3,20,Visual Page + Text Hybrid,Hybrid,MiniLM-L4,Off,0,0,20,0.08689771327190102,13.28327599032782,13.370636302419006,6,0,14,0.0,0.0,0.0,20,0.0,0.1,0.02600358422939068,0.12156565656565657,20

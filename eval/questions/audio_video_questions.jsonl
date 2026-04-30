@@ -1,0 +1,4 @@
+{"id":"media_q001","question":"What does the speaker say about the main objective of the meeting?","expected_modality":"audio_transcript","expected_source":"","notes":"For audio uploads or video with ASR enabled."}
+{"id":"media_q002","question":"Which sampled frame best matches a discussion of the interface or slides?","expected_modality":"video","expected_source":"","notes":"For video frame retrieval experiments."}
+{"id":"media_q003","question":"What timeline or action item is mentioned in the spoken content?","expected_modality":"audio_transcript","expected_source":"","notes":"ASR quality check."}
+{"id":"media_q004","question":"Find the frame or segment where the most relevant visual evidence appears.","expected_modality":"video","expected_source":"","notes":"Useful for frame-based video retrieval comparisons."}

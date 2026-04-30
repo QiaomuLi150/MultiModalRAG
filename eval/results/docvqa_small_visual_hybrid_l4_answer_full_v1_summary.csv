@@ -1,0 +1,2 @@
+run_label,questions,mode,engine,reranker,guardrail_level,blocked,no_results,used_api_count,avg_retrieval_s,avg_answer_s,avg_total_s,high_conf,medium_conf,low_conf,hit_at_k,recall_at_k,mrr_at_k,judged,normalized_exact_match,contains_expected,answer_judged
+docvqa_small_visual_hybrid_l4_answer_full_v1,20,Visual Page + Text Hybrid,Hybrid,MiniLM-L4,Off,0,0,20,0.06647568549960851,8.404686560016126,8.471254280861467,7,0,13,0.0,0.0,0.0,20,0.1,0.7,20

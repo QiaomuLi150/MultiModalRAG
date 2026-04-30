@@ -1,0 +1,10 @@
+{
+  "dataset": "BeIR/nfcorpus",
+  "qrels_dataset": "BeIR/nfcorpus-qrels",
+  "qrels_split": "test",
+  "question_count": 100,
+  "corpus_doc_count": 2063,
+  "questions_path": "/mnt/bst/a100/yxie2/qli12/My___Proj/MultiModalRAG/eval/questions/public/beir_nfcorpus_test_100.jsonl",
+  "qrels_path": "/mnt/bst/a100/yxie2/qli12/My___Proj/MultiModalRAG/eval/questions/public/beir_nfcorpus_test_100_qrels.jsonl",
+  "corpus_path": "/mnt/bst/a100/yxie2/qli12/My___Proj/MultiModalRAG/eval/questions/public/beir_nfcorpus_test_100_corpus.csv"
+}

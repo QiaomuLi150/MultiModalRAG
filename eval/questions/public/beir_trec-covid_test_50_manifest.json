@@ -1,0 +1,10 @@
+{
+  "dataset": "BeIR/trec-covid",
+  "qrels_dataset": "BeIR/trec-covid-qrels",
+  "qrels_split": "test",
+  "question_count": 50,
+  "corpus_doc_count": 35480,
+  "questions_path": "/mnt/bst/a100/yxie2/qli12/My___Proj/MultiModalRAG/eval/questions/public/beir_trec-covid_test_50.jsonl",
+  "qrels_path": "/mnt/bst/a100/yxie2/qli12/My___Proj/MultiModalRAG/eval/questions/public/beir_trec-covid_test_50_qrels.jsonl",
+  "corpus_path": "/mnt/bst/a100/yxie2/qli12/My___Proj/MultiModalRAG/eval/questions/public/beir_trec-covid_test_50_corpus.csv"
+}

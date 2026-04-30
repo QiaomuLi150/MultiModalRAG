@@ -1,0 +1,7 @@
+run_label,questions,mode,engine,reranker,guardrail_level,blocked,no_results,used_api_count,avg_retrieval_s,avg_answer_s,avg_total_s,high_conf,medium_conf,low_conf,hit_at_k,recall_at_k,mrr_at_k,judged,normalized_exact_match,contains_expected,token_f1,anls,answer_judged
+formal_beir_nfcorpus_text_l4_off_v1,100,Text Hybrid,Hybrid,MiniLM-L4,Off,0,0,100,0.3031302060931921,13.394519780706615,13.697776474189013,58,1,41,0.61,0.11602581888296876,0.5695,100,,,,,0
+formal_beir_trec_covid_text_l4_off_v1,50,Text Hybrid,Hybrid,MiniLM-L4,Off,0,0,50,0.19152125645428897,15.018259959593415,15.210398084167391,48,1,1,0.96,0.00978045022216416,0.89,50,,,,,0
+formal_docvqa_small_text_answer_v1,20,Text Hybrid,Hybrid,Off,Off,0,0,20,0.013004082813858986,9.855056310957298,9.868454433511943,0,17,3,1.0,1.0,0.8041666666666666,20,0.0,0.05,0.0637037037037037,0.1699527533398501,20
+formal_docvqa_small_text_off_v1,20,Text Hybrid,Hybrid,Off,Off,0,0,20,0.012676506023854017,9.512704808777197,9.525862620025872,0,17,3,1.0,1.0,0.8041666666666666,20,0.05,0.1,0.07662393162393163,0.17212121212121212,20
+formal_docvqa_small_visual_hybrid_l4_answer_v1,20,Visual Page + Text Hybrid,Hybrid,MiniLM-L4,Off,0,0,20,0.08331868262030184,10.443854188593104,10.527388064935803,6,0,14,1.0,1.0,0.8933333333333333,20,0.35,0.75,0.5675,0.7294804281810265,20
+formal_docvqa_small_visual_hybrid_l4_off_v1,20,Visual Page + Text Hybrid,Hybrid,MiniLM-L4,Off,0,0,20,0.08851422108709812,10.573119864799082,10.661869687354192,6,0,14,1.0,1.0,0.8933333333333333,20,0.4,0.75,0.6325000000000001,0.6656148819625392,20
