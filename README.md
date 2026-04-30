@@ -1,6 +1,6 @@
-# Multimodal RAG Streamlit Demo
+# Multimodal RAG Q&A System
 
-This project is a multimodal RAG demo for text, PDF, image, audio, and video assets. It supports text, visual, and hybrid retrieval; Qdrant Cloud persistence; guardrails; reranking; and grounded answers from `gpt-5-nano`.
+This project is a multimodal RAG Q&A system for text, PDF, image, audio, and video assets. It supports text, visual, and hybrid retrieval; Qdrant Cloud persistence; guardrails; reranking; and grounded answers from `gpt-5-nano`.
 
 OpenAI is used only for final chat answer generation. Retrieval and non-text handling are local and free/open-source. Without an API key, the app still works in retrieval-only mode.
 
